@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/scifirm/eduspark/sw.js', { scope: '/scifirm/eduspark/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/eduspark/sw.js', { scope: '/eduspark/' })})}
